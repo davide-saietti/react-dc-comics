@@ -9,13 +9,12 @@ function App() {
 
 
   return (
-   <main>
+   <div>
     <Header></Header>
     <ContentContainer></ContentContainer>
     <SubContent></SubContent>
     <Footer></Footer>
-
-   </main>
+  </div>
   )
 }
 

@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer>
-        <div class="footer-links">
+        <div className="footer-links">
             <div>
                 <h3>DC COMICS</h3>
                 <ul>
@@ -40,7 +40,7 @@ export default function Footer(){
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
-            <div class="shop-section">
+            <div className="shop-section">
                 <h3>SHOP</h3>
                 <ul>
                     <li><a href="#">Shop DC</a></li>
@@ -48,10 +48,10 @@ export default function Footer(){
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div className="footer-bottom">
             <button>SIGN-UP NOW!</button>
             <div class="social-links">
-                <a href="#">Follow Us</a>
+                <a className="follow">Follow Us</a>
                 <a href="#">Facebook</a>
                 <a href="#">Twitter</a>
                 <a href="#">YouTube</a>

@@ -6,7 +6,7 @@ export default function Header(){
 
      <header>
       <div className="logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DC_Comics_logo.svg/1200px-DC_Comics_logo.svg.png" alt="DC Comics Logo" width="100" />
+        <img src="../public/img/dc-logo.png" alt="DC Comics Logo"  />
       </div>
       <nav className="main-nav">
         <ul>

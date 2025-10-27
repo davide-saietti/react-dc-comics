@@ -154,3 +154,28 @@ footer {
     margin-right: 10px;
     color: #0877e6;
 }
+
+.content-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 5px;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.comic-item{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+
+.comic-img{
+    width: 120px;
+}

@@ -8,7 +8,7 @@ export default function ContentContainer(){
            comics.map(comic =>(
             <div className="comic-item">
                 <img className="comic-img" src={comic.thumb} alt={comic.title} />
-                <p>{comic.title}</p>
+                <h2>{comic.title}</h2>
                 <p>{comic.price}</p>
 
             </div>
